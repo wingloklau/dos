@@ -6,7 +6,7 @@ import random
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-bytes =random._urandom(3072)
+bytes =random._urandom(2048)
 
 print "This is a simple tool for udp dos"
 
